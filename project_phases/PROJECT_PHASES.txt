@@ -1,4 +1,4 @@
-1. Data Preparation & Cleaning
+# 1. Data Preparation & Cleaning
 
   Loaded dataset.
 
@@ -20,7 +20,7 @@
 
   Personal Loan, Securities Account, CD Account, Online, CreditCard: {0=No, 1=Yes}
 
-2. Exploratory Data Analysis (EDA)
+# 2. Exploratory Data Analysis (EDA)
 
   Plotted continuous variables: histograms, boxplots.
 
@@ -36,7 +36,7 @@
 
   Welch’s t-test: income difference between acceptors vs non-acceptors (p ≪ 0.001).
 
-Observations:
+## Observations:
 
   Loan acceptors tend to have higher income (100k–200k).
 
@@ -44,7 +44,7 @@ Observations:
 
   Online banking / credit card usage less predictive.
 
-3. Feature Engineering & Preprocessing
+# 3. Feature Engineering & Preprocessing
 
   Encoded categorical features.
 
@@ -52,7 +52,7 @@ Observations:
 
   StandardScaler applied for Logistic Regression (not needed for tree-based).
 
-4. Model Training & Evaluation
+# 4. Model Training & Evaluation
 
   Models trained:
 
@@ -66,7 +66,7 @@ Observations:
 
   Hyperparameter tuning: GridSearchCV, RandomizedSearchCV.
 
-5. Model Interpretation
+# 5. Model Interpretation
 
   Logistic Regression: coefficient/odds ratio interpretation.
 
@@ -76,7 +76,7 @@ Observations:
 
   SHAP values for local + global explanations.
 
-6. Key Findings
+# 6. Key Findings
 
   Strong Predictors: Income, Education (Graduate/Advanced), Family size (3–4), CD Account.
 
@@ -92,7 +92,7 @@ Business Implications:
 
   Income steadily increases acceptance likelihood.
 
-7. Conclusion
+# 7. Conclusion
 
   Best performing model: [insert best one, e.g., XGBoost].
 
@@ -100,7 +100,7 @@ Business Implications:
 
   Dataset limitations: size, missing variables.
 
-8. Future Work
+# 8. Future Work
 
   Pipelines & ColumnTransformers (scikit-learn).
 
