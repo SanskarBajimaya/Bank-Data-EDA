@@ -1,0 +1,115 @@
+1. Data Preparation & Cleaning
+
+  Loaded dataset.
+
+  Checked descriptive stats (df.describe(), df.info()).
+
+  Verified class distribution (no empty classes).
+
+  Converted CCAvg (Credit Card Avg) from string → float.
+
+  Dropped ID (unique) and Zip Code (all same).
+
+  Binned Age into categorical groups of 10s.
+
+  Renamed Income and Mortgage to represent thousands.
+
+  Converted categorical vars:
+
+  Education: {1=Undergrad, 2=Graduate, 3=Advanced}
+
+  Personal Loan, Securities Account, CD Account, Online, CreditCard: {0=No, 1=Yes}
+
+2. Exploratory Data Analysis (EDA)
+
+  Plotted continuous variables: histograms, boxplots.
+
+  Plotted categorical variables: count plots.
+
+  Correlation analysis:
+
+  Correlation matrix (df.corr()), heatmap.
+
+  Bivariate plots: Income, Experience, Mortgage, CC Avg vs Loan Acceptance.
+
+  Chi-Square test: associations between categorical vars and Personal Loan.
+
+  Welch’s t-test: income difference between acceptors vs non-acceptors (p ≪ 0.001).
+
+Observations:
+
+  Loan acceptors tend to have higher income (100k–200k).
+
+  Education, Family size, and CD account show association with loan acceptance.
+
+  Online banking / credit card usage less predictive.
+
+3. Feature Engineering & Preprocessing
+
+  Encoded categorical features.
+
+  Train/test split (80/20).
+
+  StandardScaler applied for Logistic Regression (not needed for tree-based).
+
+4. Model Training & Evaluation
+
+  Models trained:
+
+    Logistic Regression (baseline).
+
+    Random Forest (non-linear).
+
+    XGBoost (boosted trees).
+
+  Evaluation metrics: Accuracy, Precision, Recall, F1, ROC-AUC, Confusion Matrix.
+
+  Hyperparameter tuning: GridSearchCV, RandomizedSearchCV.
+
+5. Model Interpretation
+
+  Logistic Regression: coefficient/odds ratio interpretation.
+
+  Random Forest & XGBoost: built-in feature importance.
+
+  Permutation feature importance.
+
+  SHAP values for local + global explanations.
+
+6. Key Findings
+
+  Strong Predictors: Income, Education (Graduate/Advanced), Family size (3–4), CD Account.
+
+  Weak Predictors: Family=2, Online, CreditCard usage.
+
+Business Implications:
+
+  Higher education → much higher acceptance (~45–50× vs undergrad).
+
+  Families with 3–4 more likely to accept than singles.
+
+  CD Account holders are ~13× more likely to accept (cross-sell opportunity).
+
+  Income steadily increases acceptance likelihood.
+
+7. Conclusion
+
+  Best performing model: [insert best one, e.g., XGBoost].
+
+  Top features: Income, Education, Family, CD Account.
+
+  Dataset limitations: size, missing variables.
+
+8. Future Work
+
+  Pipelines & ColumnTransformers (scikit-learn).
+
+  Save models with joblib/pickle.
+
+  Requirements management (requirements.txt / environment.yml).
+
+  Deploy with FastAPI (predict endpoint).
+
+  SHAP integration in production.
+
+  Dockerize for deployment.
