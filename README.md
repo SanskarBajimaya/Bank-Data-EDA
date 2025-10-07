@@ -20,7 +20,11 @@ By combining **data-driven insights** with **machine learning models**, the proj
 | Predict customer likelihood using machine learning | Improves campaign efficiency and ROI |
 | Interpret model insights for decision-making | Guides product, pricing, and outreach strategies |
 
+<br>
 
+---
+
+<br>
 
 ## **2. Business Context**
 
@@ -32,7 +36,11 @@ This analysis provides a **data-backed approach** to segmenting and prioritizing
 2. How can predictive analytics improve campaign targeting and ROI?  
 3. Which model offers the most reliable performance for operational use?
 
+<br>
 
+---
+
+<br>
 
 ## **3. Data Overview**
 
@@ -47,7 +55,11 @@ This analysis provides a **data-backed approach** to segmenting and prioritizing
 | Behavioral | Credit Card Avg. (CCAvg), CD Account, Online Banking | Engagement indicators |
 | Target | Personal Loan (0 = No, 1 = Yes) | Loan acceptance outcome |
 
+<br>
 
+---
+
+<br>
 
 ## **4. Analytical Approach**
 
@@ -62,7 +74,11 @@ The project followed a structured, end-to-end **data science process** designed 
 | **Interpretation** | Translate model insights to action | SHAP, Feature Importance |
 | **Recommendation** | Support business decision-making | Segment prioritization, campaign design |
 
+<br>
 
+---
+
+<br>
 
 ## **5. Key Insights & Findings**
 
@@ -74,7 +90,11 @@ The project followed a structured, end-to-end **data science process** designed 
 | **CD Account holders** are 13× more likely to accept | Clear cross-sell opportunity |
 | **Online banking usage** and **credit card status** had minimal predictive value | Marketing focus can deprioritize these factors |
 
+<br>
 
+---
+
+<br>
 
 ## **6. Business Implications**
 
@@ -85,7 +105,11 @@ The project followed a structured, end-to-end **data science process** designed 
 | **Operational Efficiency** | *(Future Work)* Deploy the **predictive model in CRM systems** to rank customers by likelihood and **automate campaign targeting** — sending personalized promotional loan offers to high-probability customers. | Streamlines marketing workflows and enables real-time, data-driven decision-making. |
 | **Cost Optimization** | Reduce marketing spend on **low-probability segments**, reallocating resources toward **high-ROI prospects** identified by the model. | Improves marketing ROI and reduces acquisition cost per customer. |
 
+<br>
 
+---
+
+<br>
 
 ## **7. Model Performance Summary**
 
@@ -103,7 +127,11 @@ The project followed a structured, end-to-end **data science process** designed 
 | **Recall** | 0.76 | 0.83 | **0.87** |
 | **ROC-AUC** | 0.91 | 0.95 | **0.97** |
 
+<br>
 
+---
+
+<br>
 
 ## **8. Recommendations**
 
@@ -112,7 +140,11 @@ The project followed a structured, end-to-end **data science process** designed 
 - Continuously update the model using **recent campaign data** to adapt to changing customer behaviors.  
 - Use **SHAP-based explanations** in production dashboards to interpret customer-level predictions.  
 
+<br>
 
+---
+
+<br>
 
 ## **9. Limitations & Future Scope**
 
