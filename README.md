@@ -133,7 +133,7 @@ The project followed a structured, end-to-end **data science process** designed 
 
 <br>
 
-## **8. Recommendations**
+## **8. Next Step**
 
 - **Deploy XGBoost model** in real-time prediction systems (e.g., CRM, marketing automation).  
 - Implement **A/B testing** to measure campaign lift with model-based targeting.  
